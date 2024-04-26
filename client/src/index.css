@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Sign Up page  */
+.heading {
+  text-align: center;
+  font-size: 55px;
+  height: 70px;
+  color: orange;
+  background-color: rgb(220, 243, 247);
+}
+.sub-heading {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 40px;
+  font-weight: lighter;
+  color: #2c4097;
+  text-decoration: underline;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px inset orange;
+  border-radius: 15px;
+  width: 400px;
+  height: 225px;
+  margin-left: 490px;
+  margin-top: 50px;
+  box-shadow: 2px -1px 17px 3px pink;
+}
+.form-element{
+  margin-left:10px;
+}
+label{
+  position: absolute;
+  margin-top: 1px;
+}
+.input-field{
+  width:280px;
+  margin-left: 80px;
+}
+.input-container label {
+  display: inline-block;
+  width: 100px; 
+}
+.login {
+  margin-top: 6px;
+}
+.btn-signup {
+  padding: 8px 10px;
+  color: yellow;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: green;
+}
+.btn-login {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: rgb(238, 100, 180);
+  padding: 5px 10px;
+}
+
+/* Login page */
+
+.form-container-login {
+  display: flex;
+  justify-content: center;
+  border: 4px inset orange;
+  border-radius: 15px;
+  width: 400px;
+  height: 140px;
+  padding-top: 15px;
+  margin-left: 490px;
+  margin-top: 50px;
+  box-shadow: 2px -1px 17px 3px pink;
+}
+.btn-signup-login-page {
+  margin-top: 15px;
+  margin-left: 1180px;
+  color: yellow;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: green;
+  padding: 8px 10px;
+}
+/* Product list page */
+.btn-checkout {
+  margin-top: 14px;
+  color: yellow;
+  margin-left: 1150px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: green;
+  padding: 5px 10px;
+}
+.product-list-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.product-info-container {
+  margin-top: 55px;
+  margin-left: 5px;
+  border: 3px inset orange;
+  padding: 10px 12px;
+  border-radius: 15px;
+  width: 240px;
+  height: 315px;
+  box-shadow: 2px -1px 17px 3px pink;
+}
+.product-info-container div {
+  margin-top: 3px;
+}
+.btn-addItem {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: rgb(238, 100, 180);
+  padding: 5px 10px;
+}
+.dec-sign {
+  padding: 1px 7px;
+}
+.display-quantity {
+  border: 1px solid black;
+  padding: 1px 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+  background-color: rgb(235, 235, 229);
+}
+.inc-sign {
+  padding: 1px 5px;
+}
+.btn-addItem {
+  margin-top: 8px;
+}
+/* Checkout page */
+
+.btn-product-list {
+  margin-top: 14px;
+  color: yellow;
+  margin-left: 1130px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: green;
+  padding: 5px 10px;
+}
+table {
+  margin-top: 40px;
+  margin-left: 140px;
+}
+th,
+td {
+  border: 2px inset orange;
+  align-items: center;
+  text-align: center;
+  padding: 3px 8px;
+  
+}
+.btn-place-order {
+  padding: 8px 10px;
+  color: yellow;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: rgb(239, 100, 197);
+}
+.btn-edit-order {
+  padding: 8px 10px;
+  color: yellow;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: green;
+}
+.btn-delete-order {
+  padding: 8px 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: red;
+}
+/* place order page */
+
+.place-form {
+  border: 4px inset orange;
+  width: 410px;
+  height: 335px;
+  margin-left: 465px;
+  margin-top: 45px;
+  padding-top: 20px;
+  padding-left: 15px;
+  border-radius: 12px;
+  box-shadow: 2px -1px 17px 3px pink;
+}
+.btn-submit {
+  padding: 8px 10px;
+  color: yellow;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: green;
+}
+.place-heading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 45px;
+  color: rgb(46, 185, 136);
+  text-decoration: underline;
+}
+/* Edit page */
+
+.btn-checkout-edit{
+  margin-top: 14px;
+  color: yellow;
+  margin-left: 1130px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: green;
+  padding: 5px 10px;
+}
+.btn-update-edit{
+  padding: 8px 10px;
+  color: yellow;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: green;
+}
+.item-container{
+  margin-top: 55px;
+  margin-left: 515px;
+  border: 3px inset orange;
+  padding: 10px 12px;
+  border-radius: 15px;
+  width: 240px;
+  height: 315px;
+  box-shadow: 2px -1px 17px 3px pink;
+}
+
